@@ -1,0 +1,70 @@
+body{
+    display:flex;
+    font-family: "Open Sans";
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin:0;
+    background: lightblue;
+    background-image: url('https://source.unsplash.com/1600x900/?shimla');
+}
+h1.temp{
+    margin:0;
+}
+.lati{
+    text-transform: capitalize;
+    color:aquamarine;
+}
+.card{
+    background-color:  rgba(0, 0, 0, .67);  /* last value means opacity*/
+    padding: 2em;
+    color:white;
+    border-radius: 30px;
+    height: 80%;
+    width:100%;
+    max-width: 500px;
+    margin: 1em;
+    }
+.search{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   
+
+}
+button{
+    margin:0.5em;
+    border-radius: 15px;
+    border:none;
+    height:2.5em;
+    width:2.5em;
+    color:white;
+    outline:none;
+}
+button:hover{
+    background-color: beige;
+    cursor:pointer;
+    transition: 0.2s ease-in-out;
+}
+input.search-bar{  /* access input tag having classname="search bar"*/
+    border:none;    /* padding is the inner space , margin is outer space!! */
+    outline:none;
+    padding:0.6em;
+    border-radius: 20px;
+    background:silver;
+    height:15px;
+    font-family: inherit;  /*inherit from parent*/
+
+}
+.description{
+    text-transform: capitalize;
+}
+.flex{
+    display: flex;
+    align-items: center; 
+    justify-content: left;
+}
+.Note{
+    font-family: "Open Sans";
+  font-weight: bolder;
+}
